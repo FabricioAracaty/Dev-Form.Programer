@@ -30,26 +30,26 @@
             <!--Campo do nome com legenda"nome" e css da classe "campo"-->
             <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
-                <input type="text" name="nome" id="nome" required>
+                <input placeholder="primeiro nome" type="text" name="nome" id="nome" required>
             </div>
 
             <!--Campo do sobrenome com legenda "Sobrenome" e css de classe "campo"-->
             <div class="campo">
                 <label for="sobrenome"><strong>Sobrenome</strong></label>
-                <input type="text" name="sobrenome" id="sobrenome" required>
+                <input placeholder="sobrenome completo" type="text" name="sobrenome" id="sobrenome" required>
             </div>
         </fieldset>
         <br>
         <!--Campo do email com legenda "Email" e css da classe "campo"-->
         <div class="campo">
             <label for="email"><strong>Email</strong></label>
-            <input type="email" name="email" id="email" required>
+            <input placeholder="@email.com" type="email" name="email" id="email" required>
         </div>
         <br> <br>
 
         <!--Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo"-->
         <div class="campo">
-            <label><strong>Qual a linguagem de programação que você domina?</strong></label>
+            <label><strong>Qual a linguagem de programação que você domina melhor?</strong></label>
             <br><br>
             <input type="radio" name="devweb" value="Python" checked><b>Python</b>
             <input type="radio" name="devweb" value="<PHP"><b>PHP</b>
@@ -77,7 +77,7 @@
         <fieldset class="grupo">
             <div id="check">
                 <br>
-                <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+                <label><strong>Selecione as tecnologias que você utiliza:</strong></label><br><br>
                     <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
                     <label for="tecnologia1"><b>HTML</b></label>
                     <input type="checkbox" id="tecnologia1" name="tecnologia1" value="JavaScript">
@@ -110,7 +110,8 @@
             <br> <br>
             <label><strong>Me fale mais sobre você e sua experiência em programação</strong></label>
             <br> <br>
-            <textarea row="10" style="width: 33.9em" id="experiência" name="experiência"></textarea>
+            <textarea placeholder="Digite aqui sua mensagem" rows="5" style="width: 33.9em" id="experiência" name="experiência"></textarea>
+            <br> <br>
         </div>
 
         <button class="botão" type="submit">Concluído</button>
